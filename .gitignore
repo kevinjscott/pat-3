@@ -1,0 +1,32 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all log files
+*.log
+
+# Ignore package directories
+dist/
+build/
+*.egg-info/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
